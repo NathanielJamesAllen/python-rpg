@@ -1,18 +1,15 @@
 
 class Combat():
-    def __init__(self):
-        self.player_characters = 1
-        self.non_player_characters = 0
-        self.interactive_mode = 0
+    def __init__(self, player_characters, non_player_characters, player_ply_function, end_game_function):
+        self.player_characters = player_characters
+        self.non_player_characters = non_player_characters
+        self.interactive_mode = False
         self.party_xp = 0
-        self.party_success = 0
-        self.ordered_combatants = 0
-        self.player_ply_function = 1
-        self.end_game_function = 0
+        self.party_success = False
+        self.ordered_combatants = []
+        self.player_ply_function = player_ply_function
+        self.end_game_function = end_game_function
         
-    def __init__(player_characters, non_player_characters, player_ply_function, end_game_function):
-        pass
-
     def are_all_characters_dead(self):
         pass
 

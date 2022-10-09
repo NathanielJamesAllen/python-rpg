@@ -1,0 +1,7 @@
+{
+    "name" : "sword",
+    "price" : 20,
+    "weight" : 2,
+    "size" : 0,
+    "damage" : [1,6]
+}
