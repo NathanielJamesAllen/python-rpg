@@ -1,4 +1,5 @@
 import json
+import random
 
 class Character():
     def __init__(self):
@@ -49,18 +50,30 @@ class Character():
         pass
 
     def roll_to_hit(self):
-        pass
+        return random.randint(3, 18)
 
     def roll_for_damage(self):
-        pass
+        return random.randint(1, 5)
 
     def get_ac(self):
-        pass
-    
+        if self.race == "Human":
+            return 14
+        elif self.race == "Kobold":
+            return 13
+        elif self.race == "Dwarf":
+            return 15
+        elif self.race == "Elf":
+            return 16
+        else:
+            return 10
+
     def get_movement(self):
         pass
 
     def get_ability_bonuses(self):
+        pass
+
+    def save_character_to_file(self):
         pass
     
 

@@ -1,0 +1,19 @@
+{
+    "name" : "James", 
+    "strength" : 15,
+    "intelligence" : 10,
+    "wisdom" : 11,
+    "dexterity" : 5,
+    "constitution" : 7,
+    "charisma" : 10,
+    "race" : "human",
+    "class_" : "fighter",
+    "level" : 5,
+    "hit_point_max" : 25,
+    "movement" : 9,
+    "armors" : [],
+    "weapons" : [],
+    "xp" : 0,
+    "current_armor" : "",
+    "current_weapon" : ""
+}

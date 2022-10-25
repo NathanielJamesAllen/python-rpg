@@ -8,6 +8,7 @@ class Weapon():
         self.weight = 0
         self.damage_low = 1
         self.damage_high = 4
+        
 
     def load(self, path):
         with open(path) as f:

@@ -15,12 +15,12 @@ class Generator():
         char.strength = random.randint(3, 19)
         char.wisdom = random.randint(3, 19)
         char.constitution = random.randint(3, 19)
+        char.dexterity = random.randint(3, 19)
         char.charisma = random.randint(3, 19)
-        char.movement = random.randint(3, 19)
+        
         char.race = random.choice(["Human", "Dwarf", "Elf"])
         char.class_ = random.choice(["Wizard", "Fighter", "Cleric", "Rogue"])
-        char.armors = random.choice(["Shield", "Scale Armour", "Breastplate", "Heavy Armor"])
-        char.weapons = random.choice(["Club", "Dagger", "Broadsword", "Bow and Arrow"])
+        
         
 
         return char

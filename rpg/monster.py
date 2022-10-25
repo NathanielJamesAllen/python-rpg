@@ -1,3 +1,4 @@
+import random
 
 class Monster():
     def __init__(self):
@@ -16,13 +17,13 @@ class Monster():
 
 
     def roll_to_hit(self):
-        pass
+        return random.randint(3, 18)
 
     def roll_for_damage(self):
-        pass
+        return random.randint(1, 4)
 
     def get_ac(self):
-        pass
+        return 12
     
     def get_movement(self):
         pass
